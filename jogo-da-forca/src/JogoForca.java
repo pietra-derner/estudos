@@ -16,10 +16,10 @@ public class JogoForca {
                 |  / |     F  O  R  C  A
                 |
                 ¨¨
-                1 - Começar um novo jogo com frutas
-                2 - Começar um novo jogo com profissões
-                3 - Começar um novo jogo com cores
-                0 - Sair
+                1 | Começar um novo jogo com frutas
+                2 | Começar um novo jogo com profissões
+                3 | Começar um novo jogo com cores
+                0 | Sair
                 """);
         int opcao = scanner.nextInt();
         scanner.nextLine();
@@ -40,10 +40,10 @@ public class JogoForca {
                     break;
             }
             System.out.println("""
-                1 - Começar um novo jogo com frutas
-                2 - Começar um novo jogo com profissões
-                3 - Começar um novo jogo com cores
-                0 - Sair
+                1 | Começar um novo jogo com frutas
+                2 | Começar um novo jogo com profissões
+                3 | Começar um novo jogo com cores
+                0 | Sair
                 """);
             opcao = scanner.nextInt();
             scanner.nextLine();
